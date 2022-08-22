@@ -1,0 +1,303 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.header {
+    background: #fff;
+    padding: 5px 0px;
+    transition: all 0.1s linear;
+}
+
+.footer {
+    background: #9f9b9b;
+    padding: 15px 0px;
+    display: block;
+}
+
+.iconImg{
+    margin: 20px auto 15px auto;
+    transition: all 0.3s linear;
+    background: rgba(240, 143, 116, 0.21);
+    max-width: 200px;
+    border-radius: 50%;
+    padding: 25px;
+}
+
+.iconImg img {width:100px;height:auto;}
+
+.feature:hover .iconImg {transform:scale(1.1);}
+
+.bg{
+    background-image: url("/images/bg-1.jpg");
+    height: 550px;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 90%;
+    background-color: black;
+    background-attachment: fixed;
+
+}
+.container{
+    text-align: center;
+    padding: 10px;
+    margin-top: 0.2%;
+    width: 5000px;
+    color: rgb(0, 0, 0);
+    background: transparent;
+    transform: translate(-50%,-50);
+}
+
+.mainNav{
+    text-align: right;
+    box-sizing: border-box;
+}
+
+.about-us{
+    background-image: url("/images/About-Us-1.jpg");
+    height: 500px;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 90%;
+    background-color: black;
+
+}
+
+.innerHead{
+        background: #efefef;
+        padding: 10px 0px 5px 0px;
+        margin-bottom: 30px;
+        text-align: center;
+        box-sizing: border-box;
+}
+
+.aboutSecB{
+    padding: 100px 0px 60px 0px;
+    background: #0000 url(/images/2-about-us.jpg) no-repeat;
+    background-attachment: fixed;
+}
+
+.animation.ani {
+    opacity: 1;
+    transform: translate(0px,0px);
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.counterBlock{
+ text-align: center;
+ margin: 30px 0px;
+}
+
+.leaderHead {
+    background: #dbd6d6;
+    padding: 10px 0px 5px 0px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.lidershipList {
+    padding-top: 50px;
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-bottom: 50px;
+}
+
+.lidershipList .row{align-items: center;}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.homeHeading h2{
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-top: 0;
+}
+
+.ContactUs {
+    opacity: 1;
+    transform: translate(0px,0px);
+}
+
+.animation {
+    opacity: 0;
+    transform: translate(0px,20px);
+    transition: all 0.5s linear;
+}
+
+.contactItem {
+    position: relative;
+    background-color: #ffffff;
+    padding: 15px 15px 15px 65px;
+    line-height: 1.2;
+    margin-bottom: 15px;
+  }
+
+.contactSec {background-color: #f1f1f1; padding: 70px 0px;}
+.contactSec .sectionHeading {padding-bottom: 40px;}
+
+.contactBox {
+    background-color: rgb(255, 255, 255); 
+    box-shadow: 0px 18px 60px 0px rgba(0, 0, 0, 0.05);
+     padding: 40px;
+}
+.contactBox h3 {
+    font-size: 32px; 
+    margin: 0px 0px 25px 0px;
+    padding-bottom: 15px; 
+    position: relative;
+}
+.contactBox h3:before {
+    content: "";
+     width: 50px; height: 4px;
+     position: absolute;
+     left: 0px;
+     bottom: 0px;
+     background:var(--red);
+}
+
+.inputfield {
+    position: relative;
+    margin:10px 0px 25px 0px;
+   display: inline-block; width: 100%;
+   }
+   .inputfield label {
+        position: absolute;
+         pointer-events: none;
+         left: 0px; top: -10px;
+          transition: all 0.2s linear;
+           margin: 0px;
+   }
+   .inputfield .input {
+        background:none;
+        border:none;
+         border-bottom: 1px solid #ccc;
+         border-radius:0px;
+         padding:2px 0px 0px 0px;
+         height: 44px;width: 100%;
+          transition: all 0.3s linear;
+           font-size: 16px;
+   }
+   
+   .inputfield .input:focus~label {
+        top: -8px;
+        font-size: 12px;
+         color:#606060;
+   }
+   .inputfield label.active {
+       top: -8px;
+       font-size: 12px;
+       color: #606060;
+}
+      
+.inputfield textarea.input {
+    padding-top: 10px;
+     height:80px;
+      resize: none;
+}
+
+.aboutRtoSec {
+    padding: 50px 0px 50px;
+}
+
+.aboutRtoSec .sectionHeading {
+    text-align: center;
+}
+
+.sectionHeading h2, .sectionHeading h1 {
+    font-size: 36px;
+    margin: 0px 0px 10px 0px;
+    font-weight: 600;
+}
+
+.mapAddres {
+    margin: 0px 0px 30px 0px;
+    color: #666;
+}
+
+.mapAddres strong {
+    margin: 0px 0px 10px 0px;
+    display: block;
+    font-size: 16px;
+}
+
+.mapImg img{
+    max-width: 100%;
+    vertical-align: middle;
+    border-style: none;
+}
+
+.galleryTabSec {
+    position: relative; 
+    margin-bottom: 30px;
+}
+
+.galleryNav {
+    padding: 0px 920px 0px 0px;
+    margin: 0px;
+    list-style: none;
+    border-bottom: solid 1px orange;
+}
+
+.galleryNav li {
+    display: inline-block; 
+    vertical-align: top; 
+    color: #0a0909; 
+    background-color:#e9a13d; ;
+    border-radius: 5px 5px 0px 0px; 
+    padding: 7px 10px; 
+    border:solid 1px orange; 
+    cursor: pointer; 
+    margin-bottom: -1px; 
+    text-transform: uppercase;
+}
+.galleryNav li.active {
+    color: #333; 
+    background-color:white; 
+    border-bottom-color: #ffffff; 
+}
+
+.galleryContainer {
+    position: relative;
+    padding: 15px 15px 0px 15px;
+    border: solid 1px orange;
+    border-top: none;
+    min-height: 300px;
+  }
+
+.galleryBlock {
+    display: flex; 
+    flex-wrap: wrap; 
+}
+.galleryBlock .itemImg {
+    margin:0px 15px 15px 0px; 
+    cursor:pointer;
+    text-align: center; 
+}
+
+.galleryBlock .itemImg img{
+    height: 200px;
+    width: 200px;
+}
+
+.galleryBlock .imgTitle {
+    padding: 5px; 
+    font-size: 16px; 
+    background: #0c0c0c;
+}
+
